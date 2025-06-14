@@ -1,5 +1,3 @@
-import type { Field } from "@/interfaces/field";
-
 export interface SoilQuality {
   id: string;
   infoTime: string;
@@ -20,5 +18,4 @@ export interface SoilQuality {
   soilTemperature10cm: number;
   soilTemperature40cm: number;
   soilTemperature100cm: number;
-  field?: Field | null;
 }

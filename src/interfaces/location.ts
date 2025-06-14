@@ -1,5 +1,3 @@
-import type { User } from "@/interfaces/user";
-
 export interface Location {
   id: string;
   address: string;
@@ -11,5 +9,4 @@ export interface Location {
   district: string;
   road: string;
   postCode: string;
-  user: User | null;
 }

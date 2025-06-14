@@ -18,7 +18,7 @@ export interface Field {
   bedWidth: number | null;
   description: string | null;
   location: Location | null;
-  farm: Farm | null;
-  polygonApp: PolygonApp | null;
-  soilQuality: SoilQuality | null;
+  farm?: Farm | null;
+  polygonApp?: PolygonApp | null;
+  soilQuality?: SoilQuality | null;
 }

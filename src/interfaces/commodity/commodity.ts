@@ -13,6 +13,6 @@ export interface Commodity {
   status: CommodityStatus;
   image: string;
   publicImageId: string;
-  supplier: Supplier | null;
-  crop: Crop | null;
+  supplier?: Supplier | null;
+  crop?: Crop | null;
 }
